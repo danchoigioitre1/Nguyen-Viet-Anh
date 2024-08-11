@@ -1,0 +1,16 @@
+.select-token-type {
+  width: 200px;
+}
+.input-number {
+  width: 200px;
+}
+.input-token {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  align-items: center;
+}
+.to-token-value {
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.form-swap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 30px;
+  box-shadow: 6px 12px 88px -32px rgba(0, 0, 0, 0.75);
+  width: 60%;
+  border-radius: 20px;
+  padding: 50px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.equal {
+  margin: 10px;
+  font-size: 30px;
+}
+.token-label {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.token-label img {
+  transform: scale(0.7);
+}
