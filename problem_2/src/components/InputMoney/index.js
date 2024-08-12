@@ -5,7 +5,6 @@ import { memo } from "react";
 function InputMoney(props) {
   const { token, setToken, tokenType, isToPrice, callback } = props;
   const [tokenList, setTokenList] = useState([]);
-  console.log(tokenList);
 
   useEffect(() => {
     setTokenList([...tokenType]);

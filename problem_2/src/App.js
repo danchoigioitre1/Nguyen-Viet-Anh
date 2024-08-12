@@ -17,6 +17,7 @@ function App() {
         list.push(item);
       }
     });
+
     return list;
   };
 
@@ -45,7 +46,7 @@ function App() {
   const openNotificationWithIcon = () => {
     if (fromToken.number < 0) {
       notification.open({
-        message: "Warning",
+        message: <span className="warning-title">Warning</span>,
         description: "Input value must be greater than 0",
       });
       return;
